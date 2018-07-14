@@ -1,0 +1,68 @@
+
+#borderPane{
+-fx-background-color:#202020;
+}
+#pane{
+-fx-background-color:#404040;
+}
+#plan{
+-fx-background-color:#eeeeee;
+}
+.button {
+	-fx-font: bold 10.0pt 'san-serif';
+    -fx-border-radius: 10.0;
+    -fx-background-radius: 10;
+    -fx-font: bold  10.0pt "Verdana";
+    -fx-min-width: 80;
+    -fx-background-color:#e0e0e0;
+	}
+.button:hover{
+ -fx-background-color:f36742;
+ -fx-cursor: hand;
+}
+ .text-field{
+	-fx-font: bold  10.0pt "Verdana"; 
+	-fx-min-width: 50;
+ -fx-text-fill:#000000;
+  -fx-background-color: #bbbbbb;
+}
+.label{
+	-fx-font: bold 10.0pt "Verdana";
+	-fx-underline:true;
+	-fx-text-fill:ffd700;
+}
+
+.table-view .column-header {
+    -fx-background-color:#404040;
+}
+#label{
+	-fx-font: bold 10.0pt "Verdana";
+	-fx-text-fill:#000000;
+	  -fx-alignment: center;
+	}
+
+.table-view {
+    -fx-base: #5f5f5f;
+    -fx-padding: 3;
+}
+#wordLabel{
+	-fx-font: bold 50.0pt "Verdana";
+}
+#labelPOP{
+	-fx-font: bold 10.0pt "Verdana";
+	-fx-text-fill:ffd700;
+	-fx-underline:false;
+	-fx-alignment: letf;
+}
+.radio-button:selected {
+    -fx-text-fill: orange;
+}
+.radio-button{
+	-fx-font: bold 10.0pt "Verdana";
+    -fx-text-fill:ffd700;
+    -fx-mark-color: red ;
+
+}
+#checkBox{
+	-fx-text-fill: white;
+}
